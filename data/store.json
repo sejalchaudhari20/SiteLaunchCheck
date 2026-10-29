@@ -1,0 +1,3201 @@
+{
+  "reports": [
+    {
+      "url": "https://youthnetpro.com/",
+      "timestamp": "2026-09-22T10:24:52.238Z",
+      "overallScore": 73,
+      "launchStatus": "NEEDS FIXES",
+      "summary": {
+        "passed": 24,
+        "warnings": 8,
+        "critical": 3
+      },
+      "categoryScores": [
+        {
+          "category": "Technical",
+          "score": 83,
+          "weight": 15
+        },
+        {
+          "category": "Links",
+          "score": 90,
+          "weight": 15
+        },
+        {
+          "category": "Forms",
+          "score": 50,
+          "weight": 15
+        },
+        {
+          "category": "Mobile / UX",
+          "score": 67,
+          "weight": 15
+        },
+        {
+          "category": "SEO Essentials",
+          "score": 93,
+          "weight": 12
+        },
+        {
+          "category": "Images",
+          "score": 70,
+          "weight": 10
+        },
+        {
+          "category": "Accessibility Basics",
+          "score": 38,
+          "weight": 10
+        },
+        {
+          "category": "Content / Client Delivery",
+          "score": 100,
+          "weight": 8
+        }
+      ],
+      "results": [
+        {
+          "id": "seo-page-title",
+          "category": "SEO Essentials",
+          "title": "Page Title",
+          "description": "Checks if the page has a valid <title> tag with an optimal length (10-70 characters).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page title is optimal (57 chars).",
+          "recommendation": "Ensure every page has a unique, descriptive title between 10 and 70 characters.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-meta-description",
+          "category": "SEO Essentials",
+          "title": "Meta Description",
+          "description": "Checks for a meta description tag with an optimal length (50-160 characters).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Meta description is too long (195 chars).",
+          "recommendation": "Provide a compelling meta description between 50 and 160 characters to improve click-through rates.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-h1-heading",
+          "category": "SEO Essentials",
+          "title": "H1 Heading",
+          "description": "Checks if the page has exactly one descriptive H1 heading.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Exactly one H1 heading found.",
+          "recommendation": "Ensure there is exactly one H1 tag per page, containing the primary topic of the page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-canonical",
+          "category": "SEO Essentials",
+          "title": "Canonical URL",
+          "description": "Checks if a canonical URL is specified to prevent duplicate content issues.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Canonical URL found: https://youthnetpro.com",
+          "recommendation": "Ensure the canonical URL points to the correct preferred URL.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-open-graph",
+          "category": "SEO Essentials",
+          "title": "Open Graph",
+          "description": "Checks for basic Open Graph tags (og:title, og:image) for social sharing.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found og:title and og:image tags.",
+          "recommendation": "Include Open Graph metadata to control how your URLs are displayed on social media.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-robots",
+          "category": "SEO Essentials",
+          "title": "Robots.txt",
+          "description": "Checks if a robots.txt file exists to guide search engine crawlers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found robots.txt at https://youthnetpro.com/robots.txt",
+          "recommendation": "Ensure a valid robots.txt file is present at the root of your domain.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-sitemap",
+          "category": "SEO Essentials",
+          "title": "XML Sitemap",
+          "description": "Checks if an XML sitemap exists at the default /sitemap.xml location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found XML sitemap at https://youthnetpro.com/sitemap.xml",
+          "recommendation": "Provide an XML sitemap to help search engines discover your pages.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-https",
+          "category": "Technical",
+          "title": "HTTPS",
+          "description": "Checks if the page is served over a secure HTTPS connection.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page is served over HTTPS.",
+          "recommendation": "Ensure your website forces HTTPS to encrypt traffic and protect user data.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-viewport",
+          "category": "Technical",
+          "title": "Viewport Meta Tag",
+          "description": "Checks if the page has a viewport meta tag for mobile responsiveness.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Viewport tag found: width=device-width, initial-scale=1.0",
+          "recommendation": "Ensure the viewport tag includes width=device-width and initial-scale=1.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-charset",
+          "category": "Technical",
+          "title": "Charset Declaration",
+          "description": "Checks if the page specifies a character encoding.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Charset found: UTF-8",
+          "recommendation": "Ensure your charset is set to UTF-8 for maximum compatibility.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-language",
+          "category": "Technical",
+          "title": "HTML Language",
+          "description": "Checks if the HTML tag has a lang attribute for accessibility and SEO.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Language specified: en",
+          "recommendation": "Ensure the specified language code is correct for the page content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-favicon",
+          "category": "Technical",
+          "title": "Favicon",
+          "description": "Checks if a favicon is specified or present at the default location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Favicon linked in HTML: /favicon.ico",
+          "recommendation": "Add a favicon to improve brand recognition in browser tabs and bookmarks.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-404-page",
+          "category": "Technical",
+          "title": "404 Page Behavior",
+          "description": "Checks if non-existent URLs return the correct 404 HTTP status code.",
+          "status": "FAIL",
+          "severity": "WARNING",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Non-existent page returned status 200 instead of 404. This can cause soft-404 SEO issues.",
+          "recommendation": "Ensure your server returns a 404 status code for pages that do not exist (avoid soft 404s).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-empty",
+          "category": "Links",
+          "title": "Empty Links",
+          "description": "Checks for links missing an href attribute or accessible text/content.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No empty links found.",
+          "recommendation": "Ensure all <a> tags have a valid href and descriptive text or an aria-label.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-placeholder",
+          "category": "Links",
+          "title": "Placeholder Links",
+          "description": "Checks for unresolved placeholder links (like href=\"#\" or href=\"javascript:void(0)\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No placeholder links found.",
+          "recommendation": "Replace placeholder links with actual URLs or remove them before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-http-on-https",
+          "category": "Links",
+          "title": "HTTP Links on HTTPS Site",
+          "description": "Checks for insecure HTTP links on a secure HTTPS page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All absolute links use HTTPS.",
+          "recommendation": "Update all HTTP links to HTTPS to maintain security and avoid mixed-content warnings.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-broken-internal",
+          "category": "Links",
+          "title": "Broken Internal Links",
+          "description": "Checks for broken links to other pages on the same website.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 10 internal links. All working.",
+          "recommendation": "Fix or remove any broken internal links (404s) to improve user experience and SEO.",
+          "affectedUrls": []
+        },
+        {
+          "id": "links-broken-external",
+          "category": "Links",
+          "title": "Broken External Links",
+          "description": "Checks for broken links to other websites.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 1 broken external links. Example: https://www.linkedin.com/in/youthnet-pro-network-334a3840a/",
+          "recommendation": "Fix or remove any broken external links to maintain credibility.",
+          "affectedUrls": [
+            "https://www.linkedin.com/in/youthnet-pro-network-334a3840a/"
+          ]
+        },
+        {
+          "id": "images-missing-alt",
+          "category": "Images",
+          "title": "Missing ALT Attributes",
+          "description": "Checks if images have an alt attribute (even if empty for decorative images).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Use alt=\"\" for decorative images.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-dimensions",
+          "category": "Images",
+          "title": "Image Dimensions",
+          "description": "Checks if images have explicit width and height attributes to prevent layout shifts.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 6 image(s) missing width or height attributes.",
+          "recommendation": "Add width and height attributes to all <img> tags to improve Cumulative Layout Shift (CLS).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-modern-format",
+          "category": "Images",
+          "title": "Modern Image Format",
+          "description": "Checks if images use modern, optimized formats like WebP or AVIF.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 3 image(s) using older formats (PNG/JPG/GIF).",
+          "recommendation": "Serve images in modern formats like WebP or AVIF to reduce file sizes and improve load times.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-broken",
+          "category": "Images",
+          "title": "Broken Images",
+          "description": "Checks for broken image sources (returns a 404 or fails to load).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 6 image(s). All loaded successfully.",
+          "recommendation": "Fix or remove any broken image URLs to improve user experience.",
+          "affectedUrls": []
+        },
+        {
+          "id": "images-large",
+          "category": "Images",
+          "title": "Large Images",
+          "description": "Checks if any images are excessively large (>500KB) and might slow down the page.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 2 large image(s) over 500KB. Example: https://youthnetpro.com/assets/images/footer-banner-image.png",
+          "recommendation": "Compress large images to improve page load speed.",
+          "affectedUrls": [
+            "https://youthnetpro.com/assets/images/footer-banner-image.png",
+            "https://youthnetpro.com/resource-whatsapp.png"
+          ]
+        },
+        {
+          "id": "forms-exists",
+          "category": "Forms",
+          "title": "Form Exists",
+          "description": "Checks if the page contains at least one form.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-action",
+          "category": "Forms",
+          "title": "Form Action",
+          "description": "Checks if forms have an action attribute or are handled by JavaScript.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-submit-button",
+          "category": "Forms",
+          "title": "Submit Button",
+          "description": "Checks if forms have a clear submit button.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-email-field",
+          "category": "Forms",
+          "title": "Email Field Type",
+          "description": "Checks if fields requesting email addresses use type=\"email\".",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All email fields appear to use the correct input type.",
+          "recommendation": "Use <input type=\"email\"> for email fields to trigger the correct mobile keyboard and built-in validation.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-labels",
+          "category": "Forms",
+          "title": "Form Labels",
+          "description": "Checks if form inputs have associated labels or accessible names.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 form input(s) without an associated label.",
+          "recommendation": "Ensure every form input has a <label> (using the \"for\" attribute) or an aria-label attribute.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-lorem-ipsum",
+          "category": "Content / Client Delivery",
+          "title": "Lorem Ipsum",
+          "description": "Checks if placeholder \"Lorem Ipsum\" text was left on the page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No \"Lorem ipsum\" text detected.",
+          "recommendation": "Replace all placeholder text with real client copy before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-text",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Text",
+          "description": "Checks for generic placeholder phrases (e.g. \"insert text here\", \"TBD\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No common placeholder phrases detected.",
+          "recommendation": "Ensure all generic placeholders are replaced with actual content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-images",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Images",
+          "description": "Checks if generic placeholder image services are still being used.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No known placeholder image services detected.",
+          "recommendation": "Replace placeholder images with final client assets.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-copyright-year",
+          "category": "Content / Client Delivery",
+          "title": "Copyright Year",
+          "description": "Checks if the copyright year (if present) is current.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Copyright year appears up to date or no copyright text found.",
+          "recommendation": "Ensure your footer copyright date is updated to the current year.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-image-alt",
+          "category": "Accessibility Basics",
+          "title": "Image Alt Text",
+          "description": "Checks if images have an alt attribute for screen readers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Screen readers rely on this to describe images to visually impaired users.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-form-labels",
+          "category": "Accessibility Basics",
+          "title": "Accessible Form Labels",
+          "description": "Checks if form inputs have accessible names for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 input(s) lacking an accessible name.",
+          "recommendation": "Use <label for=\"...\"> or aria-label so screen reader users know what to enter.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-heading-hierarchy",
+          "category": "Accessibility Basics",
+          "title": "Heading Hierarchy",
+          "description": "Checks if heading tags are used in a logical, sequential order (no skipped levels).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Detected 1 instance(s) of skipped heading levels (e.g. H1 directly to H3).",
+          "recommendation": "Do not skip heading levels. Use headings to construct a logical document outline.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-button-link-names",
+          "category": "Accessibility Basics",
+          "title": "Button and Link Names",
+          "description": "Checks if interactive elements have discernible text for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 6 button(s) or link(s) without discernible text.",
+          "recommendation": "Ensure icon-only buttons or empty links have an aria-label to describe their purpose.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-layout",
+          "category": "Mobile / UX",
+          "title": "Horizontal Overflow",
+          "description": "Checks if the page fits on standard mobile screens without horizontal scrolling.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No horizontal overflow detected on mobile viewports.",
+          "recommendation": "Ensure all elements fit within the viewport width to prevent horizontal scrolling on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-small-text",
+          "category": "Mobile / UX",
+          "title": "Very Small Text",
+          "description": "Checks for text that is too small to be readable on mobile (less than 12px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 136 text element(s) with a computed font size less than 12px.",
+          "recommendation": "Use a base font size of at least 16px to ensure readability on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-touch-targets",
+          "category": "Mobile / UX",
+          "title": "Small Touch Targets",
+          "description": "Checks for interactive elements that are too small to easily tap on mobile (less than 44x44px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 13 interactive element(s) smaller than 44x44 pixels.",
+          "recommendation": "Ensure all buttons and links are at least 44x44 pixels to accommodate finger taps on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        }
+      ],
+      "reportId": "rpt_a8467d74f63b44adb59368dda85eeda6"
+    },
+    {
+      "url": "https://youthnetpro.com/",
+      "timestamp": "2026-09-22T10:25:14.134Z",
+      "overallScore": 73,
+      "launchStatus": "NEEDS FIXES",
+      "summary": {
+        "passed": 24,
+        "warnings": 8,
+        "critical": 3
+      },
+      "categoryScores": [
+        {
+          "category": "Technical",
+          "score": 83,
+          "weight": 15
+        },
+        {
+          "category": "Links",
+          "score": 90,
+          "weight": 15
+        },
+        {
+          "category": "Forms",
+          "score": 50,
+          "weight": 15
+        },
+        {
+          "category": "Mobile / UX",
+          "score": 67,
+          "weight": 15
+        },
+        {
+          "category": "SEO Essentials",
+          "score": 93,
+          "weight": 12
+        },
+        {
+          "category": "Images",
+          "score": 70,
+          "weight": 10
+        },
+        {
+          "category": "Accessibility Basics",
+          "score": 38,
+          "weight": 10
+        },
+        {
+          "category": "Content / Client Delivery",
+          "score": 100,
+          "weight": 8
+        }
+      ],
+      "results": [
+        {
+          "id": "seo-page-title",
+          "category": "SEO Essentials",
+          "title": "Page Title",
+          "description": "Checks if the page has a valid <title> tag with an optimal length (10-70 characters).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page title is optimal (57 chars).",
+          "recommendation": "Ensure every page has a unique, descriptive title between 10 and 70 characters.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-meta-description",
+          "category": "SEO Essentials",
+          "title": "Meta Description",
+          "description": "Checks for a meta description tag with an optimal length (50-160 characters).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Meta description is too long (195 chars).",
+          "recommendation": "Provide a compelling meta description between 50 and 160 characters to improve click-through rates.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-h1-heading",
+          "category": "SEO Essentials",
+          "title": "H1 Heading",
+          "description": "Checks if the page has exactly one descriptive H1 heading.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Exactly one H1 heading found.",
+          "recommendation": "Ensure there is exactly one H1 tag per page, containing the primary topic of the page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-canonical",
+          "category": "SEO Essentials",
+          "title": "Canonical URL",
+          "description": "Checks if a canonical URL is specified to prevent duplicate content issues.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Canonical URL found: https://youthnetpro.com",
+          "recommendation": "Ensure the canonical URL points to the correct preferred URL.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-open-graph",
+          "category": "SEO Essentials",
+          "title": "Open Graph",
+          "description": "Checks for basic Open Graph tags (og:title, og:image) for social sharing.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found og:title and og:image tags.",
+          "recommendation": "Include Open Graph metadata to control how your URLs are displayed on social media.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-robots",
+          "category": "SEO Essentials",
+          "title": "Robots.txt",
+          "description": "Checks if a robots.txt file exists to guide search engine crawlers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found robots.txt at https://youthnetpro.com/robots.txt",
+          "recommendation": "Ensure a valid robots.txt file is present at the root of your domain.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-sitemap",
+          "category": "SEO Essentials",
+          "title": "XML Sitemap",
+          "description": "Checks if an XML sitemap exists at the default /sitemap.xml location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found XML sitemap at https://youthnetpro.com/sitemap.xml",
+          "recommendation": "Provide an XML sitemap to help search engines discover your pages.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-https",
+          "category": "Technical",
+          "title": "HTTPS",
+          "description": "Checks if the page is served over a secure HTTPS connection.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page is served over HTTPS.",
+          "recommendation": "Ensure your website forces HTTPS to encrypt traffic and protect user data.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-viewport",
+          "category": "Technical",
+          "title": "Viewport Meta Tag",
+          "description": "Checks if the page has a viewport meta tag for mobile responsiveness.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Viewport tag found: width=device-width, initial-scale=1.0",
+          "recommendation": "Ensure the viewport tag includes width=device-width and initial-scale=1.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-charset",
+          "category": "Technical",
+          "title": "Charset Declaration",
+          "description": "Checks if the page specifies a character encoding.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Charset found: UTF-8",
+          "recommendation": "Ensure your charset is set to UTF-8 for maximum compatibility.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-language",
+          "category": "Technical",
+          "title": "HTML Language",
+          "description": "Checks if the HTML tag has a lang attribute for accessibility and SEO.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Language specified: en",
+          "recommendation": "Ensure the specified language code is correct for the page content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-favicon",
+          "category": "Technical",
+          "title": "Favicon",
+          "description": "Checks if a favicon is specified or present at the default location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Favicon linked in HTML: /favicon.ico",
+          "recommendation": "Add a favicon to improve brand recognition in browser tabs and bookmarks.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-404-page",
+          "category": "Technical",
+          "title": "404 Page Behavior",
+          "description": "Checks if non-existent URLs return the correct 404 HTTP status code.",
+          "status": "FAIL",
+          "severity": "WARNING",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Non-existent page returned status 200 instead of 404. This can cause soft-404 SEO issues.",
+          "recommendation": "Ensure your server returns a 404 status code for pages that do not exist (avoid soft 404s).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-empty",
+          "category": "Links",
+          "title": "Empty Links",
+          "description": "Checks for links missing an href attribute or accessible text/content.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No empty links found.",
+          "recommendation": "Ensure all <a> tags have a valid href and descriptive text or an aria-label.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-placeholder",
+          "category": "Links",
+          "title": "Placeholder Links",
+          "description": "Checks for unresolved placeholder links (like href=\"#\" or href=\"javascript:void(0)\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No placeholder links found.",
+          "recommendation": "Replace placeholder links with actual URLs or remove them before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-http-on-https",
+          "category": "Links",
+          "title": "HTTP Links on HTTPS Site",
+          "description": "Checks for insecure HTTP links on a secure HTTPS page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All absolute links use HTTPS.",
+          "recommendation": "Update all HTTP links to HTTPS to maintain security and avoid mixed-content warnings.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-broken-internal",
+          "category": "Links",
+          "title": "Broken Internal Links",
+          "description": "Checks for broken links to other pages on the same website.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 10 internal links. All working.",
+          "recommendation": "Fix or remove any broken internal links (404s) to improve user experience and SEO.",
+          "affectedUrls": []
+        },
+        {
+          "id": "links-broken-external",
+          "category": "Links",
+          "title": "Broken External Links",
+          "description": "Checks for broken links to other websites.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 1 broken external links. Example: https://www.linkedin.com/in/youthnet-pro-network-334a3840a/",
+          "recommendation": "Fix or remove any broken external links to maintain credibility.",
+          "affectedUrls": [
+            "https://www.linkedin.com/in/youthnet-pro-network-334a3840a/"
+          ]
+        },
+        {
+          "id": "images-missing-alt",
+          "category": "Images",
+          "title": "Missing ALT Attributes",
+          "description": "Checks if images have an alt attribute (even if empty for decorative images).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Use alt=\"\" for decorative images.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-dimensions",
+          "category": "Images",
+          "title": "Image Dimensions",
+          "description": "Checks if images have explicit width and height attributes to prevent layout shifts.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 6 image(s) missing width or height attributes.",
+          "recommendation": "Add width and height attributes to all <img> tags to improve Cumulative Layout Shift (CLS).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-modern-format",
+          "category": "Images",
+          "title": "Modern Image Format",
+          "description": "Checks if images use modern, optimized formats like WebP or AVIF.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 3 image(s) using older formats (PNG/JPG/GIF).",
+          "recommendation": "Serve images in modern formats like WebP or AVIF to reduce file sizes and improve load times.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-broken",
+          "category": "Images",
+          "title": "Broken Images",
+          "description": "Checks for broken image sources (returns a 404 or fails to load).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 6 image(s). All loaded successfully.",
+          "recommendation": "Fix or remove any broken image URLs to improve user experience.",
+          "affectedUrls": []
+        },
+        {
+          "id": "images-large",
+          "category": "Images",
+          "title": "Large Images",
+          "description": "Checks if any images are excessively large (>500KB) and might slow down the page.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 2 large image(s) over 500KB. Example: https://youthnetpro.com/resource-whatsapp.png",
+          "recommendation": "Compress large images to improve page load speed.",
+          "affectedUrls": [
+            "https://youthnetpro.com/resource-whatsapp.png",
+            "https://youthnetpro.com/assets/images/footer-banner-image.png"
+          ]
+        },
+        {
+          "id": "forms-exists",
+          "category": "Forms",
+          "title": "Form Exists",
+          "description": "Checks if the page contains at least one form.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-action",
+          "category": "Forms",
+          "title": "Form Action",
+          "description": "Checks if forms have an action attribute or are handled by JavaScript.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-submit-button",
+          "category": "Forms",
+          "title": "Submit Button",
+          "description": "Checks if forms have a clear submit button.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-email-field",
+          "category": "Forms",
+          "title": "Email Field Type",
+          "description": "Checks if fields requesting email addresses use type=\"email\".",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All email fields appear to use the correct input type.",
+          "recommendation": "Use <input type=\"email\"> for email fields to trigger the correct mobile keyboard and built-in validation.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-labels",
+          "category": "Forms",
+          "title": "Form Labels",
+          "description": "Checks if form inputs have associated labels or accessible names.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 form input(s) without an associated label.",
+          "recommendation": "Ensure every form input has a <label> (using the \"for\" attribute) or an aria-label attribute.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-lorem-ipsum",
+          "category": "Content / Client Delivery",
+          "title": "Lorem Ipsum",
+          "description": "Checks if placeholder \"Lorem Ipsum\" text was left on the page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No \"Lorem ipsum\" text detected.",
+          "recommendation": "Replace all placeholder text with real client copy before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-text",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Text",
+          "description": "Checks for generic placeholder phrases (e.g. \"insert text here\", \"TBD\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No common placeholder phrases detected.",
+          "recommendation": "Ensure all generic placeholders are replaced with actual content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-images",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Images",
+          "description": "Checks if generic placeholder image services are still being used.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No known placeholder image services detected.",
+          "recommendation": "Replace placeholder images with final client assets.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-copyright-year",
+          "category": "Content / Client Delivery",
+          "title": "Copyright Year",
+          "description": "Checks if the copyright year (if present) is current.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Copyright year appears up to date or no copyright text found.",
+          "recommendation": "Ensure your footer copyright date is updated to the current year.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-image-alt",
+          "category": "Accessibility Basics",
+          "title": "Image Alt Text",
+          "description": "Checks if images have an alt attribute for screen readers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Screen readers rely on this to describe images to visually impaired users.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-form-labels",
+          "category": "Accessibility Basics",
+          "title": "Accessible Form Labels",
+          "description": "Checks if form inputs have accessible names for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 input(s) lacking an accessible name.",
+          "recommendation": "Use <label for=\"...\"> or aria-label so screen reader users know what to enter.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-heading-hierarchy",
+          "category": "Accessibility Basics",
+          "title": "Heading Hierarchy",
+          "description": "Checks if heading tags are used in a logical, sequential order (no skipped levels).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Detected 1 instance(s) of skipped heading levels (e.g. H1 directly to H3).",
+          "recommendation": "Do not skip heading levels. Use headings to construct a logical document outline.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-button-link-names",
+          "category": "Accessibility Basics",
+          "title": "Button and Link Names",
+          "description": "Checks if interactive elements have discernible text for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 6 button(s) or link(s) without discernible text.",
+          "recommendation": "Ensure icon-only buttons or empty links have an aria-label to describe their purpose.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-layout",
+          "category": "Mobile / UX",
+          "title": "Horizontal Overflow",
+          "description": "Checks if the page fits on standard mobile screens without horizontal scrolling.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No horizontal overflow detected on mobile viewports.",
+          "recommendation": "Ensure all elements fit within the viewport width to prevent horizontal scrolling on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-small-text",
+          "category": "Mobile / UX",
+          "title": "Very Small Text",
+          "description": "Checks for text that is too small to be readable on mobile (less than 12px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 136 text element(s) with a computed font size less than 12px.",
+          "recommendation": "Use a base font size of at least 16px to ensure readability on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-touch-targets",
+          "category": "Mobile / UX",
+          "title": "Small Touch Targets",
+          "description": "Checks for interactive elements that are too small to easily tap on mobile (less than 44x44px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 13 interactive element(s) smaller than 44x44 pixels.",
+          "recommendation": "Ensure all buttons and links are at least 44x44 pixels to accommodate finger taps on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        }
+      ],
+      "reportId": "rpt_e7ec427e27d745c2973eb7c260567825"
+    },
+    {
+      "url": "https://youthnetpro.com/",
+      "timestamp": "2026-09-22T10:29:58.381Z",
+      "overallScore": 73,
+      "launchStatus": "NEEDS FIXES",
+      "summary": {
+        "passed": 24,
+        "warnings": 8,
+        "critical": 3
+      },
+      "categoryScores": [
+        {
+          "category": "Technical",
+          "score": 83,
+          "weight": 15
+        },
+        {
+          "category": "Links",
+          "score": 90,
+          "weight": 15
+        },
+        {
+          "category": "Forms",
+          "score": 50,
+          "weight": 15
+        },
+        {
+          "category": "Mobile / UX",
+          "score": 67,
+          "weight": 15
+        },
+        {
+          "category": "SEO Essentials",
+          "score": 93,
+          "weight": 12
+        },
+        {
+          "category": "Images",
+          "score": 70,
+          "weight": 10
+        },
+        {
+          "category": "Accessibility Basics",
+          "score": 38,
+          "weight": 10
+        },
+        {
+          "category": "Content / Client Delivery",
+          "score": 100,
+          "weight": 8
+        }
+      ],
+      "results": [
+        {
+          "id": "seo-page-title",
+          "category": "SEO Essentials",
+          "title": "Page Title",
+          "description": "Checks if the page has a valid <title> tag with an optimal length (10-70 characters).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page title is optimal (57 chars).",
+          "recommendation": "Ensure every page has a unique, descriptive title between 10 and 70 characters.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-meta-description",
+          "category": "SEO Essentials",
+          "title": "Meta Description",
+          "description": "Checks for a meta description tag with an optimal length (50-160 characters).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Meta description is too long (195 chars).",
+          "recommendation": "Provide a compelling meta description between 50 and 160 characters to improve click-through rates.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-h1-heading",
+          "category": "SEO Essentials",
+          "title": "H1 Heading",
+          "description": "Checks if the page has exactly one descriptive H1 heading.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Exactly one H1 heading found.",
+          "recommendation": "Ensure there is exactly one H1 tag per page, containing the primary topic of the page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-canonical",
+          "category": "SEO Essentials",
+          "title": "Canonical URL",
+          "description": "Checks if a canonical URL is specified to prevent duplicate content issues.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Canonical URL found: https://youthnetpro.com",
+          "recommendation": "Ensure the canonical URL points to the correct preferred URL.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-open-graph",
+          "category": "SEO Essentials",
+          "title": "Open Graph",
+          "description": "Checks for basic Open Graph tags (og:title, og:image) for social sharing.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found og:title and og:image tags.",
+          "recommendation": "Include Open Graph metadata to control how your URLs are displayed on social media.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-robots",
+          "category": "SEO Essentials",
+          "title": "Robots.txt",
+          "description": "Checks if a robots.txt file exists to guide search engine crawlers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found robots.txt at https://youthnetpro.com/robots.txt",
+          "recommendation": "Ensure a valid robots.txt file is present at the root of your domain.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-sitemap",
+          "category": "SEO Essentials",
+          "title": "XML Sitemap",
+          "description": "Checks if an XML sitemap exists at the default /sitemap.xml location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found XML sitemap at https://youthnetpro.com/sitemap.xml",
+          "recommendation": "Provide an XML sitemap to help search engines discover your pages.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-https",
+          "category": "Technical",
+          "title": "HTTPS",
+          "description": "Checks if the page is served over a secure HTTPS connection.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page is served over HTTPS.",
+          "recommendation": "Ensure your website forces HTTPS to encrypt traffic and protect user data.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-viewport",
+          "category": "Technical",
+          "title": "Viewport Meta Tag",
+          "description": "Checks if the page has a viewport meta tag for mobile responsiveness.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Viewport tag found: width=device-width, initial-scale=1.0",
+          "recommendation": "Ensure the viewport tag includes width=device-width and initial-scale=1.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-charset",
+          "category": "Technical",
+          "title": "Charset Declaration",
+          "description": "Checks if the page specifies a character encoding.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Charset found: UTF-8",
+          "recommendation": "Ensure your charset is set to UTF-8 for maximum compatibility.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-language",
+          "category": "Technical",
+          "title": "HTML Language",
+          "description": "Checks if the HTML tag has a lang attribute for accessibility and SEO.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Language specified: en",
+          "recommendation": "Ensure the specified language code is correct for the page content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-favicon",
+          "category": "Technical",
+          "title": "Favicon",
+          "description": "Checks if a favicon is specified or present at the default location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Favicon linked in HTML: /favicon.ico",
+          "recommendation": "Add a favicon to improve brand recognition in browser tabs and bookmarks.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-404-page",
+          "category": "Technical",
+          "title": "404 Page Behavior",
+          "description": "Checks if non-existent URLs return the correct 404 HTTP status code.",
+          "status": "FAIL",
+          "severity": "WARNING",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Non-existent page returned status 200 instead of 404. This can cause soft-404 SEO issues.",
+          "recommendation": "Ensure your server returns a 404 status code for pages that do not exist (avoid soft 404s).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-empty",
+          "category": "Links",
+          "title": "Empty Links",
+          "description": "Checks for links missing an href attribute or accessible text/content.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No empty links found.",
+          "recommendation": "Ensure all <a> tags have a valid href and descriptive text or an aria-label.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-placeholder",
+          "category": "Links",
+          "title": "Placeholder Links",
+          "description": "Checks for unresolved placeholder links (like href=\"#\" or href=\"javascript:void(0)\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No placeholder links found.",
+          "recommendation": "Replace placeholder links with actual URLs or remove them before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-http-on-https",
+          "category": "Links",
+          "title": "HTTP Links on HTTPS Site",
+          "description": "Checks for insecure HTTP links on a secure HTTPS page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All absolute links use HTTPS.",
+          "recommendation": "Update all HTTP links to HTTPS to maintain security and avoid mixed-content warnings.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-broken-internal",
+          "category": "Links",
+          "title": "Broken Internal Links",
+          "description": "Checks for broken links to other pages on the same website.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 10 internal links. All working.",
+          "recommendation": "Fix or remove any broken internal links (404s) to improve user experience and SEO.",
+          "affectedUrls": []
+        },
+        {
+          "id": "links-broken-external",
+          "category": "Links",
+          "title": "Broken External Links",
+          "description": "Checks for broken links to other websites.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 1 broken external links. Example: https://www.linkedin.com/in/youthnet-pro-network-334a3840a/",
+          "recommendation": "Fix or remove any broken external links to maintain credibility.",
+          "affectedUrls": [
+            "https://www.linkedin.com/in/youthnet-pro-network-334a3840a/"
+          ]
+        },
+        {
+          "id": "images-missing-alt",
+          "category": "Images",
+          "title": "Missing ALT Attributes",
+          "description": "Checks if images have an alt attribute (even if empty for decorative images).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Use alt=\"\" for decorative images.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-dimensions",
+          "category": "Images",
+          "title": "Image Dimensions",
+          "description": "Checks if images have explicit width and height attributes to prevent layout shifts.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 6 image(s) missing width or height attributes.",
+          "recommendation": "Add width and height attributes to all <img> tags to improve Cumulative Layout Shift (CLS).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-modern-format",
+          "category": "Images",
+          "title": "Modern Image Format",
+          "description": "Checks if images use modern, optimized formats like WebP or AVIF.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 3 image(s) using older formats (PNG/JPG/GIF).",
+          "recommendation": "Serve images in modern formats like WebP or AVIF to reduce file sizes and improve load times.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-broken",
+          "category": "Images",
+          "title": "Broken Images",
+          "description": "Checks for broken image sources (returns a 404 or fails to load).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 6 image(s). All loaded successfully.",
+          "recommendation": "Fix or remove any broken image URLs to improve user experience.",
+          "affectedUrls": []
+        },
+        {
+          "id": "images-large",
+          "category": "Images",
+          "title": "Large Images",
+          "description": "Checks if any images are excessively large (>500KB) and might slow down the page.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 2 large image(s) over 500KB. Example: https://youthnetpro.com/assets/images/footer-banner-image.png",
+          "recommendation": "Compress large images to improve page load speed.",
+          "affectedUrls": [
+            "https://youthnetpro.com/assets/images/footer-banner-image.png",
+            "https://youthnetpro.com/resource-whatsapp.png"
+          ]
+        },
+        {
+          "id": "forms-exists",
+          "category": "Forms",
+          "title": "Form Exists",
+          "description": "Checks if the page contains at least one form.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-action",
+          "category": "Forms",
+          "title": "Form Action",
+          "description": "Checks if forms have an action attribute or are handled by JavaScript.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-submit-button",
+          "category": "Forms",
+          "title": "Submit Button",
+          "description": "Checks if forms have a clear submit button.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-email-field",
+          "category": "Forms",
+          "title": "Email Field Type",
+          "description": "Checks if fields requesting email addresses use type=\"email\".",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All email fields appear to use the correct input type.",
+          "recommendation": "Use <input type=\"email\"> for email fields to trigger the correct mobile keyboard and built-in validation.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-labels",
+          "category": "Forms",
+          "title": "Form Labels",
+          "description": "Checks if form inputs have associated labels or accessible names.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 form input(s) without an associated label.",
+          "recommendation": "Ensure every form input has a <label> (using the \"for\" attribute) or an aria-label attribute.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-lorem-ipsum",
+          "category": "Content / Client Delivery",
+          "title": "Lorem Ipsum",
+          "description": "Checks if placeholder \"Lorem Ipsum\" text was left on the page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No \"Lorem ipsum\" text detected.",
+          "recommendation": "Replace all placeholder text with real client copy before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-text",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Text",
+          "description": "Checks for generic placeholder phrases (e.g. \"insert text here\", \"TBD\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No common placeholder phrases detected.",
+          "recommendation": "Ensure all generic placeholders are replaced with actual content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-images",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Images",
+          "description": "Checks if generic placeholder image services are still being used.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No known placeholder image services detected.",
+          "recommendation": "Replace placeholder images with final client assets.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-copyright-year",
+          "category": "Content / Client Delivery",
+          "title": "Copyright Year",
+          "description": "Checks if the copyright year (if present) is current.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Copyright year appears up to date or no copyright text found.",
+          "recommendation": "Ensure your footer copyright date is updated to the current year.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-image-alt",
+          "category": "Accessibility Basics",
+          "title": "Image Alt Text",
+          "description": "Checks if images have an alt attribute for screen readers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Screen readers rely on this to describe images to visually impaired users.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-form-labels",
+          "category": "Accessibility Basics",
+          "title": "Accessible Form Labels",
+          "description": "Checks if form inputs have accessible names for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 input(s) lacking an accessible name.",
+          "recommendation": "Use <label for=\"...\"> or aria-label so screen reader users know what to enter.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-heading-hierarchy",
+          "category": "Accessibility Basics",
+          "title": "Heading Hierarchy",
+          "description": "Checks if heading tags are used in a logical, sequential order (no skipped levels).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Detected 1 instance(s) of skipped heading levels (e.g. H1 directly to H3).",
+          "recommendation": "Do not skip heading levels. Use headings to construct a logical document outline.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-button-link-names",
+          "category": "Accessibility Basics",
+          "title": "Button and Link Names",
+          "description": "Checks if interactive elements have discernible text for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 6 button(s) or link(s) without discernible text.",
+          "recommendation": "Ensure icon-only buttons or empty links have an aria-label to describe their purpose.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-layout",
+          "category": "Mobile / UX",
+          "title": "Horizontal Overflow",
+          "description": "Checks if the page fits on standard mobile screens without horizontal scrolling.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No horizontal overflow detected on mobile viewports.",
+          "recommendation": "Ensure all elements fit within the viewport width to prevent horizontal scrolling on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-small-text",
+          "category": "Mobile / UX",
+          "title": "Very Small Text",
+          "description": "Checks for text that is too small to be readable on mobile (less than 12px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 136 text element(s) with a computed font size less than 12px.",
+          "recommendation": "Use a base font size of at least 16px to ensure readability on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-touch-targets",
+          "category": "Mobile / UX",
+          "title": "Small Touch Targets",
+          "description": "Checks for interactive elements that are too small to easily tap on mobile (less than 44x44px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 13 interactive element(s) smaller than 44x44 pixels.",
+          "recommendation": "Ensure all buttons and links are at least 44x44 pixels to accommodate finger taps on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        }
+      ],
+      "reportId": "rpt_856b679050a044e7a81f71eb2b74ea95"
+    },
+    {
+      "url": "https://youthnetpro.com/",
+      "timestamp": "2026-09-22T10:47:34.724Z",
+      "overallScore": 73,
+      "launchStatus": "NEEDS FIXES",
+      "summary": {
+        "passed": 24,
+        "warnings": 8,
+        "critical": 3
+      },
+      "categoryScores": [
+        {
+          "category": "Technical",
+          "score": 83,
+          "weight": 15
+        },
+        {
+          "category": "Links",
+          "score": 90,
+          "weight": 15
+        },
+        {
+          "category": "Forms",
+          "score": 50,
+          "weight": 15
+        },
+        {
+          "category": "Mobile / UX",
+          "score": 67,
+          "weight": 15
+        },
+        {
+          "category": "SEO Essentials",
+          "score": 93,
+          "weight": 12
+        },
+        {
+          "category": "Images",
+          "score": 70,
+          "weight": 10
+        },
+        {
+          "category": "Accessibility Basics",
+          "score": 38,
+          "weight": 10
+        },
+        {
+          "category": "Content / Client Delivery",
+          "score": 100,
+          "weight": 8
+        }
+      ],
+      "results": [
+        {
+          "id": "seo-page-title",
+          "category": "SEO Essentials",
+          "title": "Page Title",
+          "description": "Checks if the page has a valid <title> tag with an optimal length (10-70 characters).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page title is optimal (57 chars).",
+          "recommendation": "Ensure every page has a unique, descriptive title between 10 and 70 characters.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-meta-description",
+          "category": "SEO Essentials",
+          "title": "Meta Description",
+          "description": "Checks for a meta description tag with an optimal length (50-160 characters).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Meta description is too long (195 chars).",
+          "recommendation": "Provide a compelling meta description between 50 and 160 characters to improve click-through rates.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-h1-heading",
+          "category": "SEO Essentials",
+          "title": "H1 Heading",
+          "description": "Checks if the page has exactly one descriptive H1 heading.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Exactly one H1 heading found.",
+          "recommendation": "Ensure there is exactly one H1 tag per page, containing the primary topic of the page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-canonical",
+          "category": "SEO Essentials",
+          "title": "Canonical URL",
+          "description": "Checks if a canonical URL is specified to prevent duplicate content issues.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Canonical URL found: https://youthnetpro.com",
+          "recommendation": "Ensure the canonical URL points to the correct preferred URL.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-open-graph",
+          "category": "SEO Essentials",
+          "title": "Open Graph",
+          "description": "Checks for basic Open Graph tags (og:title, og:image) for social sharing.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found og:title and og:image tags.",
+          "recommendation": "Include Open Graph metadata to control how your URLs are displayed on social media.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-robots",
+          "category": "SEO Essentials",
+          "title": "Robots.txt",
+          "description": "Checks if a robots.txt file exists to guide search engine crawlers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found robots.txt at https://youthnetpro.com/robots.txt",
+          "recommendation": "Ensure a valid robots.txt file is present at the root of your domain.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-sitemap",
+          "category": "SEO Essentials",
+          "title": "XML Sitemap",
+          "description": "Checks if an XML sitemap exists at the default /sitemap.xml location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found XML sitemap at https://youthnetpro.com/sitemap.xml",
+          "recommendation": "Provide an XML sitemap to help search engines discover your pages.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-https",
+          "category": "Technical",
+          "title": "HTTPS",
+          "description": "Checks if the page is served over a secure HTTPS connection.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page is served over HTTPS.",
+          "recommendation": "Ensure your website forces HTTPS to encrypt traffic and protect user data.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-viewport",
+          "category": "Technical",
+          "title": "Viewport Meta Tag",
+          "description": "Checks if the page has a viewport meta tag for mobile responsiveness.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Viewport tag found: width=device-width, initial-scale=1.0",
+          "recommendation": "Ensure the viewport tag includes width=device-width and initial-scale=1.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-charset",
+          "category": "Technical",
+          "title": "Charset Declaration",
+          "description": "Checks if the page specifies a character encoding.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Charset found: UTF-8",
+          "recommendation": "Ensure your charset is set to UTF-8 for maximum compatibility.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-language",
+          "category": "Technical",
+          "title": "HTML Language",
+          "description": "Checks if the HTML tag has a lang attribute for accessibility and SEO.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Language specified: en",
+          "recommendation": "Ensure the specified language code is correct for the page content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-favicon",
+          "category": "Technical",
+          "title": "Favicon",
+          "description": "Checks if a favicon is specified or present at the default location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Favicon linked in HTML: /favicon.ico",
+          "recommendation": "Add a favicon to improve brand recognition in browser tabs and bookmarks.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-404-page",
+          "category": "Technical",
+          "title": "404 Page Behavior",
+          "description": "Checks if non-existent URLs return the correct 404 HTTP status code.",
+          "status": "FAIL",
+          "severity": "WARNING",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Non-existent page returned status 200 instead of 404. This can cause soft-404 SEO issues.",
+          "recommendation": "Ensure your server returns a 404 status code for pages that do not exist (avoid soft 404s).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-empty",
+          "category": "Links",
+          "title": "Empty Links",
+          "description": "Checks for links missing an href attribute or accessible text/content.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No empty links found.",
+          "recommendation": "Ensure all <a> tags have a valid href and descriptive text or an aria-label.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-placeholder",
+          "category": "Links",
+          "title": "Placeholder Links",
+          "description": "Checks for unresolved placeholder links (like href=\"#\" or href=\"javascript:void(0)\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No placeholder links found.",
+          "recommendation": "Replace placeholder links with actual URLs or remove them before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-http-on-https",
+          "category": "Links",
+          "title": "HTTP Links on HTTPS Site",
+          "description": "Checks for insecure HTTP links on a secure HTTPS page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All absolute links use HTTPS.",
+          "recommendation": "Update all HTTP links to HTTPS to maintain security and avoid mixed-content warnings.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-broken-internal",
+          "category": "Links",
+          "title": "Broken Internal Links",
+          "description": "Checks for broken links to other pages on the same website.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 10 internal links. All working.",
+          "recommendation": "Fix or remove any broken internal links (404s) to improve user experience and SEO.",
+          "affectedUrls": []
+        },
+        {
+          "id": "links-broken-external",
+          "category": "Links",
+          "title": "Broken External Links",
+          "description": "Checks for broken links to other websites.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 1 broken external links. Example: https://www.linkedin.com/in/youthnet-pro-network-334a3840a/",
+          "recommendation": "Fix or remove any broken external links to maintain credibility.",
+          "affectedUrls": [
+            "https://www.linkedin.com/in/youthnet-pro-network-334a3840a/"
+          ]
+        },
+        {
+          "id": "images-missing-alt",
+          "category": "Images",
+          "title": "Missing ALT Attributes",
+          "description": "Checks if images have an alt attribute (even if empty for decorative images).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Use alt=\"\" for decorative images.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-dimensions",
+          "category": "Images",
+          "title": "Image Dimensions",
+          "description": "Checks if images have explicit width and height attributes to prevent layout shifts.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 6 image(s) missing width or height attributes.",
+          "recommendation": "Add width and height attributes to all <img> tags to improve Cumulative Layout Shift (CLS).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-modern-format",
+          "category": "Images",
+          "title": "Modern Image Format",
+          "description": "Checks if images use modern, optimized formats like WebP or AVIF.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 3 image(s) using older formats (PNG/JPG/GIF).",
+          "recommendation": "Serve images in modern formats like WebP or AVIF to reduce file sizes and improve load times.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-broken",
+          "category": "Images",
+          "title": "Broken Images",
+          "description": "Checks for broken image sources (returns a 404 or fails to load).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 6 image(s). All loaded successfully.",
+          "recommendation": "Fix or remove any broken image URLs to improve user experience.",
+          "affectedUrls": []
+        },
+        {
+          "id": "images-large",
+          "category": "Images",
+          "title": "Large Images",
+          "description": "Checks if any images are excessively large (>500KB) and might slow down the page.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 2 large image(s) over 500KB. Example: https://youthnetpro.com/resource-whatsapp.png",
+          "recommendation": "Compress large images to improve page load speed.",
+          "affectedUrls": [
+            "https://youthnetpro.com/resource-whatsapp.png",
+            "https://youthnetpro.com/assets/images/footer-banner-image.png"
+          ]
+        },
+        {
+          "id": "forms-exists",
+          "category": "Forms",
+          "title": "Form Exists",
+          "description": "Checks if the page contains at least one form.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-action",
+          "category": "Forms",
+          "title": "Form Action",
+          "description": "Checks if forms have an action attribute or are handled by JavaScript.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-submit-button",
+          "category": "Forms",
+          "title": "Submit Button",
+          "description": "Checks if forms have a clear submit button.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-email-field",
+          "category": "Forms",
+          "title": "Email Field Type",
+          "description": "Checks if fields requesting email addresses use type=\"email\".",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All email fields appear to use the correct input type.",
+          "recommendation": "Use <input type=\"email\"> for email fields to trigger the correct mobile keyboard and built-in validation.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-labels",
+          "category": "Forms",
+          "title": "Form Labels",
+          "description": "Checks if form inputs have associated labels or accessible names.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 form input(s) without an associated label.",
+          "recommendation": "Ensure every form input has a <label> (using the \"for\" attribute) or an aria-label attribute.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-lorem-ipsum",
+          "category": "Content / Client Delivery",
+          "title": "Lorem Ipsum",
+          "description": "Checks if placeholder \"Lorem Ipsum\" text was left on the page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No \"Lorem ipsum\" text detected.",
+          "recommendation": "Replace all placeholder text with real client copy before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-text",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Text",
+          "description": "Checks for generic placeholder phrases (e.g. \"insert text here\", \"TBD\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No common placeholder phrases detected.",
+          "recommendation": "Ensure all generic placeholders are replaced with actual content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-images",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Images",
+          "description": "Checks if generic placeholder image services are still being used.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No known placeholder image services detected.",
+          "recommendation": "Replace placeholder images with final client assets.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-copyright-year",
+          "category": "Content / Client Delivery",
+          "title": "Copyright Year",
+          "description": "Checks if the copyright year (if present) is current.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Copyright year appears up to date or no copyright text found.",
+          "recommendation": "Ensure your footer copyright date is updated to the current year.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-image-alt",
+          "category": "Accessibility Basics",
+          "title": "Image Alt Text",
+          "description": "Checks if images have an alt attribute for screen readers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Screen readers rely on this to describe images to visually impaired users.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-form-labels",
+          "category": "Accessibility Basics",
+          "title": "Accessible Form Labels",
+          "description": "Checks if form inputs have accessible names for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 input(s) lacking an accessible name.",
+          "recommendation": "Use <label for=\"...\"> or aria-label so screen reader users know what to enter.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-heading-hierarchy",
+          "category": "Accessibility Basics",
+          "title": "Heading Hierarchy",
+          "description": "Checks if heading tags are used in a logical, sequential order (no skipped levels).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Detected 1 instance(s) of skipped heading levels (e.g. H1 directly to H3).",
+          "recommendation": "Do not skip heading levels. Use headings to construct a logical document outline.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-button-link-names",
+          "category": "Accessibility Basics",
+          "title": "Button and Link Names",
+          "description": "Checks if interactive elements have discernible text for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 6 button(s) or link(s) without discernible text.",
+          "recommendation": "Ensure icon-only buttons or empty links have an aria-label to describe their purpose.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-layout",
+          "category": "Mobile / UX",
+          "title": "Horizontal Overflow",
+          "description": "Checks if the page fits on standard mobile screens without horizontal scrolling.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No horizontal overflow detected on mobile viewports.",
+          "recommendation": "Ensure all elements fit within the viewport width to prevent horizontal scrolling on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-small-text",
+          "category": "Mobile / UX",
+          "title": "Very Small Text",
+          "description": "Checks for text that is too small to be readable on mobile (less than 12px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 136 text element(s) with a computed font size less than 12px.",
+          "recommendation": "Use a base font size of at least 16px to ensure readability on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-touch-targets",
+          "category": "Mobile / UX",
+          "title": "Small Touch Targets",
+          "description": "Checks for interactive elements that are too small to easily tap on mobile (less than 44x44px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 13 interactive element(s) smaller than 44x44 pixels.",
+          "recommendation": "Ensure all buttons and links are at least 44x44 pixels to accommodate finger taps on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        }
+      ],
+      "reportId": "rpt_2fb7de0e90c94a4ab708caa21b4d3cfe"
+    },
+    {
+      "url": "https://youthnetpro.com/",
+      "timestamp": "2026-09-22T10:51:24.865Z",
+      "overallScore": 73,
+      "launchStatus": "NEEDS FIXES",
+      "summary": {
+        "passed": 24,
+        "warnings": 8,
+        "critical": 3
+      },
+      "categoryScores": [
+        {
+          "category": "Technical",
+          "score": 83,
+          "weight": 15
+        },
+        {
+          "category": "Links",
+          "score": 90,
+          "weight": 15
+        },
+        {
+          "category": "Forms",
+          "score": 50,
+          "weight": 15
+        },
+        {
+          "category": "Mobile / UX",
+          "score": 67,
+          "weight": 15
+        },
+        {
+          "category": "SEO Essentials",
+          "score": 93,
+          "weight": 12
+        },
+        {
+          "category": "Images",
+          "score": 70,
+          "weight": 10
+        },
+        {
+          "category": "Accessibility Basics",
+          "score": 38,
+          "weight": 10
+        },
+        {
+          "category": "Content / Client Delivery",
+          "score": 100,
+          "weight": 8
+        }
+      ],
+      "results": [
+        {
+          "id": "seo-page-title",
+          "category": "SEO Essentials",
+          "title": "Page Title",
+          "description": "Checks if the page has a valid <title> tag with an optimal length (10-70 characters).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page title is optimal (57 chars).",
+          "recommendation": "Ensure every page has a unique, descriptive title between 10 and 70 characters.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-meta-description",
+          "category": "SEO Essentials",
+          "title": "Meta Description",
+          "description": "Checks for a meta description tag with an optimal length (50-160 characters).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Meta description is too long (195 chars).",
+          "recommendation": "Provide a compelling meta description between 50 and 160 characters to improve click-through rates.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-h1-heading",
+          "category": "SEO Essentials",
+          "title": "H1 Heading",
+          "description": "Checks if the page has exactly one descriptive H1 heading.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Exactly one H1 heading found.",
+          "recommendation": "Ensure there is exactly one H1 tag per page, containing the primary topic of the page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-canonical",
+          "category": "SEO Essentials",
+          "title": "Canonical URL",
+          "description": "Checks if a canonical URL is specified to prevent duplicate content issues.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Canonical URL found: https://youthnetpro.com",
+          "recommendation": "Ensure the canonical URL points to the correct preferred URL.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-open-graph",
+          "category": "SEO Essentials",
+          "title": "Open Graph",
+          "description": "Checks for basic Open Graph tags (og:title, og:image) for social sharing.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found og:title and og:image tags.",
+          "recommendation": "Include Open Graph metadata to control how your URLs are displayed on social media.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-robots",
+          "category": "SEO Essentials",
+          "title": "Robots.txt",
+          "description": "Checks if a robots.txt file exists to guide search engine crawlers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found robots.txt at https://youthnetpro.com/robots.txt",
+          "recommendation": "Ensure a valid robots.txt file is present at the root of your domain.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "seo-sitemap",
+          "category": "SEO Essentials",
+          "title": "XML Sitemap",
+          "description": "Checks if an XML sitemap exists at the default /sitemap.xml location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Found XML sitemap at https://youthnetpro.com/sitemap.xml",
+          "recommendation": "Provide an XML sitemap to help search engines discover your pages.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-https",
+          "category": "Technical",
+          "title": "HTTPS",
+          "description": "Checks if the page is served over a secure HTTPS connection.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Page is served over HTTPS.",
+          "recommendation": "Ensure your website forces HTTPS to encrypt traffic and protect user data.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-viewport",
+          "category": "Technical",
+          "title": "Viewport Meta Tag",
+          "description": "Checks if the page has a viewport meta tag for mobile responsiveness.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Viewport tag found: width=device-width, initial-scale=1.0",
+          "recommendation": "Ensure the viewport tag includes width=device-width and initial-scale=1.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-charset",
+          "category": "Technical",
+          "title": "Charset Declaration",
+          "description": "Checks if the page specifies a character encoding.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Charset found: UTF-8",
+          "recommendation": "Ensure your charset is set to UTF-8 for maximum compatibility.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-language",
+          "category": "Technical",
+          "title": "HTML Language",
+          "description": "Checks if the HTML tag has a lang attribute for accessibility and SEO.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Language specified: en",
+          "recommendation": "Ensure the specified language code is correct for the page content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-favicon",
+          "category": "Technical",
+          "title": "Favicon",
+          "description": "Checks if a favicon is specified or present at the default location.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Favicon linked in HTML: /favicon.ico",
+          "recommendation": "Add a favicon to improve brand recognition in browser tabs and bookmarks.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "tech-404-page",
+          "category": "Technical",
+          "title": "404 Page Behavior",
+          "description": "Checks if non-existent URLs return the correct 404 HTTP status code.",
+          "status": "FAIL",
+          "severity": "WARNING",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Non-existent page returned status 200 instead of 404. This can cause soft-404 SEO issues.",
+          "recommendation": "Ensure your server returns a 404 status code for pages that do not exist (avoid soft 404s).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-empty",
+          "category": "Links",
+          "title": "Empty Links",
+          "description": "Checks for links missing an href attribute or accessible text/content.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No empty links found.",
+          "recommendation": "Ensure all <a> tags have a valid href and descriptive text or an aria-label.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-placeholder",
+          "category": "Links",
+          "title": "Placeholder Links",
+          "description": "Checks for unresolved placeholder links (like href=\"#\" or href=\"javascript:void(0)\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No placeholder links found.",
+          "recommendation": "Replace placeholder links with actual URLs or remove them before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-http-on-https",
+          "category": "Links",
+          "title": "HTTP Links on HTTPS Site",
+          "description": "Checks for insecure HTTP links on a secure HTTPS page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All absolute links use HTTPS.",
+          "recommendation": "Update all HTTP links to HTTPS to maintain security and avoid mixed-content warnings.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "links-broken-internal",
+          "category": "Links",
+          "title": "Broken Internal Links",
+          "description": "Checks for broken links to other pages on the same website.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 10 internal links. All working.",
+          "recommendation": "Fix or remove any broken internal links (404s) to improve user experience and SEO.",
+          "affectedUrls": []
+        },
+        {
+          "id": "links-broken-external",
+          "category": "Links",
+          "title": "Broken External Links",
+          "description": "Checks for broken links to other websites.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 1 broken external links. Example: https://www.linkedin.com/in/youthnet-pro-network-334a3840a/",
+          "recommendation": "Fix or remove any broken external links to maintain credibility.",
+          "affectedUrls": [
+            "https://www.linkedin.com/in/youthnet-pro-network-334a3840a/"
+          ]
+        },
+        {
+          "id": "images-missing-alt",
+          "category": "Images",
+          "title": "Missing ALT Attributes",
+          "description": "Checks if images have an alt attribute (even if empty for decorative images).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Use alt=\"\" for decorative images.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-dimensions",
+          "category": "Images",
+          "title": "Image Dimensions",
+          "description": "Checks if images have explicit width and height attributes to prevent layout shifts.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 6 image(s) missing width or height attributes.",
+          "recommendation": "Add width and height attributes to all <img> tags to improve Cumulative Layout Shift (CLS).",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-modern-format",
+          "category": "Images",
+          "title": "Modern Image Format",
+          "description": "Checks if images use modern, optimized formats like WebP or AVIF.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 3 image(s) using older formats (PNG/JPG/GIF).",
+          "recommendation": "Serve images in modern formats like WebP or AVIF to reduce file sizes and improve load times.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "images-broken",
+          "category": "Images",
+          "title": "Broken Images",
+          "description": "Checks for broken image sources (returns a 404 or fails to load).",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Checked 6 image(s). All loaded successfully.",
+          "recommendation": "Fix or remove any broken image URLs to improve user experience.",
+          "affectedUrls": []
+        },
+        {
+          "id": "images-large",
+          "category": "Images",
+          "title": "Large Images",
+          "description": "Checks if any images are excessively large (>500KB) and might slow down the page.",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 2 large image(s) over 500KB. Example: https://youthnetpro.com/resource-whatsapp.png",
+          "recommendation": "Compress large images to improve page load speed.",
+          "affectedUrls": [
+            "https://youthnetpro.com/resource-whatsapp.png",
+            "https://youthnetpro.com/assets/images/footer-banner-image.png"
+          ]
+        },
+        {
+          "id": "forms-exists",
+          "category": "Forms",
+          "title": "Form Exists",
+          "description": "Checks if the page contains at least one form.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-action",
+          "category": "Forms",
+          "title": "Form Action",
+          "description": "Checks if forms have an action attribute or are handled by JavaScript.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-submit-button",
+          "category": "Forms",
+          "title": "Submit Button",
+          "description": "Checks if forms have a clear submit button.",
+          "status": "NA",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No forms found on this page.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-email-field",
+          "category": "Forms",
+          "title": "Email Field Type",
+          "description": "Checks if fields requesting email addresses use type=\"email\".",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All email fields appear to use the correct input type.",
+          "recommendation": "Use <input type=\"email\"> for email fields to trigger the correct mobile keyboard and built-in validation.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "forms-labels",
+          "category": "Forms",
+          "title": "Form Labels",
+          "description": "Checks if form inputs have associated labels or accessible names.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 form input(s) without an associated label.",
+          "recommendation": "Ensure every form input has a <label> (using the \"for\" attribute) or an aria-label attribute.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-lorem-ipsum",
+          "category": "Content / Client Delivery",
+          "title": "Lorem Ipsum",
+          "description": "Checks if placeholder \"Lorem Ipsum\" text was left on the page.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No \"Lorem ipsum\" text detected.",
+          "recommendation": "Replace all placeholder text with real client copy before delivery.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-text",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Text",
+          "description": "Checks for generic placeholder phrases (e.g. \"insert text here\", \"TBD\").",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No common placeholder phrases detected.",
+          "recommendation": "Ensure all generic placeholders are replaced with actual content.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-placeholder-images",
+          "category": "Content / Client Delivery",
+          "title": "Placeholder Images",
+          "description": "Checks if generic placeholder image services are still being used.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No known placeholder image services detected.",
+          "recommendation": "Replace placeholder images with final client assets.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "content-copyright-year",
+          "category": "Content / Client Delivery",
+          "title": "Copyright Year",
+          "description": "Checks if the copyright year (if present) is current.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "Copyright year appears up to date or no copyright text found.",
+          "recommendation": "Ensure your footer copyright date is updated to the current year.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-image-alt",
+          "category": "Accessibility Basics",
+          "title": "Image Alt Text",
+          "description": "Checks if images have an alt attribute for screen readers.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "All images have an alt attribute.",
+          "recommendation": "Add alt attributes to all images. Screen readers rely on this to describe images to visually impaired users.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-form-labels",
+          "category": "Accessibility Basics",
+          "title": "Accessible Form Labels",
+          "description": "Checks if form inputs have accessible names for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 1 input(s) lacking an accessible name.",
+          "recommendation": "Use <label for=\"...\"> or aria-label so screen reader users know what to enter.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-heading-hierarchy",
+          "category": "Accessibility Basics",
+          "title": "Heading Hierarchy",
+          "description": "Checks if heading tags are used in a logical, sequential order (no skipped levels).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Detected 1 instance(s) of skipped heading levels (e.g. H1 directly to H3).",
+          "recommendation": "Do not skip heading levels. Use headings to construct a logical document outline.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "a11y-button-link-names",
+          "category": "Accessibility Basics",
+          "title": "Button and Link Names",
+          "description": "Checks if interactive elements have discernible text for screen readers.",
+          "status": "FAIL",
+          "severity": "CRITICAL",
+          "score": 0,
+          "maxScore": 100,
+          "details": "Found 6 button(s) or link(s) without discernible text.",
+          "recommendation": "Ensure icon-only buttons or empty links have an aria-label to describe their purpose.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-layout",
+          "category": "Mobile / UX",
+          "title": "Horizontal Overflow",
+          "description": "Checks if the page fits on standard mobile screens without horizontal scrolling.",
+          "status": "PASS",
+          "severity": "INFO",
+          "score": 100,
+          "maxScore": 100,
+          "details": "No horizontal overflow detected on mobile viewports.",
+          "recommendation": "Ensure all elements fit within the viewport width to prevent horizontal scrolling on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-small-text",
+          "category": "Mobile / UX",
+          "title": "Very Small Text",
+          "description": "Checks for text that is too small to be readable on mobile (less than 12px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 136 text element(s) with a computed font size less than 12px.",
+          "recommendation": "Use a base font size of at least 16px to ensure readability on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        },
+        {
+          "id": "mobile-touch-targets",
+          "category": "Mobile / UX",
+          "title": "Small Touch Targets",
+          "description": "Checks for interactive elements that are too small to easily tap on mobile (less than 44x44px).",
+          "status": "WARNING",
+          "severity": "WARNING",
+          "score": 50,
+          "maxScore": 100,
+          "details": "Found 13 interactive element(s) smaller than 44x44 pixels.",
+          "recommendation": "Ensure all buttons and links are at least 44x44 pixels to accommodate finger taps on mobile devices.",
+          "affectedUrls": [
+            "https://youthnetpro.com/"
+          ]
+        }
+      ],
+      "reportId": "rpt_fa1bce722c234e68b9a8ad485d65d470"
+    }
+  ],
+  "feedback": [
+    {
+      "reportId": "rpt_856b679050a044e7a81f71eb2b74ea95",
+      "rating": "useful",
+      "message": "No not for now",
+      "id": "fb_34526960cfed4b97b7fceec60c3dc7f8",
+      "timestamp": "2026-09-22T10:31:44.143Z"
+    },
+    {
+      "source": "landing_page",
+      "auditId": null,
+      "auditUrl": null,
+      "sessionId": null,
+      "rating": 4,
+      "feedbackType": "General Feedback",
+      "message": "It's very helpful",
+      "device": "Desktop",
+      "id": "fb_c18ee2e6249f4301ab10bf8e7c9943cf",
+      "status": "new",
+      "createdAt": "2026-09-22T10:46:27.610Z"
+    }
+  ]
+}
